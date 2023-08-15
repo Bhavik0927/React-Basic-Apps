@@ -1,0 +1,36 @@
+body{
+  font-family: sans-serif;
+}
+
+.Container{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  /* border: 1px solid red; */
+}
+
+.progressBar{
+  height: 30px;
+  width: 500px;
+  background-color: rgb(237, 232, 232);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.progressBar span{
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressBar div{
+  height: 100%;
+  background-color: #00c251;
+}
